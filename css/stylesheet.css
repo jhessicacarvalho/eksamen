@@ -50,3 +50,7 @@ body {
     display: block;
   }
 }
+
+footer {
+  background-color: #3f83bf;
+}
