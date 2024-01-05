@@ -1,0 +1,28 @@
+/*Forside*/
+.grid-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  border-radius: 10px;
+}
+
+.grid_2 {
+  background-color: #f285c1;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.grid_3 {
+  background-color: #f285c1;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.image1 {
+  max-width: 50%;
+}
