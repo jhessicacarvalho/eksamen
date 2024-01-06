@@ -21,6 +21,7 @@ body {
 img {
   max-width: 100%; /* Begræns billedets bredde til boksens bredde */
   height: auto; /* Bevar billedets aspektratio */
+  margin-top: 15px;
 }
 
 .overlay {
@@ -29,14 +30,15 @@ img {
 
 .middle-box {
   position: absolute;
-  top: 21px;
-  width: 94%;
+  top: 20px;
+  width: 95%;
   height: 100%;
 }
 
 .middle-box {
   background-color: #3f83bf;
   z-index: 1; /* Højere z-index for at være øverst */
+  border-radius: 10px;
 }
 
 .right-box {
@@ -47,6 +49,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
 }
 
 .right-box p {
