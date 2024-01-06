@@ -33,9 +33,6 @@ img {
   top: 20px;
   width: 95%;
   height: 100%;
-}
-
-.middle-box {
   background-color: #3f83bf;
   z-index: 1; /* Højere z-index for at være øverst */
   border-radius: 10px;
@@ -53,6 +50,11 @@ img {
 }
 
 .right-box p {
+  color: white;
+  text-align: center;
+}
+
+h1 {
   color: white;
   text-align: center;
 }
