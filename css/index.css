@@ -26,16 +26,39 @@
 .semester {
   margin-left: 26%;
   font-family: "Fraunces", serif;
-  font-size: 250%;
+  font-size: 321%;
   color: white;
   margin-top: -9px;
+  margin-left: 34%;
+  position: absolute;
+  left: -100%; /* Startposition uden for skærmen */
+  top: 30%;
+  transform: translate(0, -50%);
+  animation: slideFromLeft1 2s ease-in-out forwards;
+}
+
+@keyframes slideFromLeft1 {
+  to {
+    left: 21%; /* Slutposition i midten af skærmen */
+  }
 }
 
 h1 {
   font-family: "Fraunces", serif;
-  font-size: 250%;
+  font-size: 321%;
   color: white;
-  margin-left: -48px;
+  margin-left: 25%;
+  position: absolute;
+  left: -100%;
+  top: 0%;
+  transform: translate(0, -50%);
+  animation: slideFromLeft2 2s ease-in-out forwards;
+}
+
+@keyframes slideFromLeft2 {
+  to {
+    left: 21%; /* Slutposition i midten af skærmen */
+  }
 }
 
 .image1 {
@@ -55,9 +78,19 @@ h1 {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-left: 58px;
+  margin-left: 40%;
+  position: absolute;
+  left: -100%;
+  top: 55%;
+  transform: translate(0, -50%);
+  animation: slideFromLeft3 2s ease-in-out forwards;
 }
 
+@keyframes slideFromLeft3 {
+  to {
+    left: 21%; /* Slutposition i midten af skærmen */
+  }
+}
 .cta-button:hover {
   background-color: #8abf8d;
 }
