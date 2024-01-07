@@ -26,10 +26,10 @@
 .semester {
   margin-left: 26%;
   font-family: "Fraunces", serif;
-  font-size: 321%;
+  font-size: 3em;
   color: white;
   margin-top: -9px;
-  margin-left: 34%;
+  margin-left: 29%;
   position: absolute;
   left: -100%; /* Startposition uden for skærmen */
   top: 30%;
@@ -45,7 +45,7 @@
 
 h1 {
   font-family: "Fraunces", serif;
-  font-size: 321%;
+  font-size: 3em;
   color: white;
   margin-left: 25%;
   position: absolute;

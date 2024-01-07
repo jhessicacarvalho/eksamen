@@ -3,10 +3,6 @@ body {
   font-family: "Fraunces", serif;
 }
 
-.container {
-  display: flex;
-}
-
 .box {
   flex: 1;
   height: 300px;
@@ -61,10 +57,10 @@ h1 {
   font-size: 250%;
 }
 
-p {
+.description {
   text-align: justify;
   font-family: "Poppins", sans-serif;
-  font-size: 90%;
+  font-size: 0.65em;
 }
 
 footer {
@@ -76,4 +72,16 @@ footer {
   bottom: 0px;
   left: 0px;
   right: 0px;
+}
+
+.grid-container1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 5% auto auto auto;
+  border-radius: 10px;
 }

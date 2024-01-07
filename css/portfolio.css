@@ -7,7 +7,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 30%;
-  gap: 18%;
+  gap: 3em;
   justify-content: center;
   align-items: center;
   padding-top: 4%;
