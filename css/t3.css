@@ -12,14 +12,19 @@ body {
 
 .left-box {
   overflow: hidden; /* For at sikre, at billedet ikke går ud over boksen */
-  box-shadow: -9px 22px #3f83bf;
+  box-shadow: -9px 30px #3f83bf;
   border-radius: 2%;
 }
 
+@media screen and (max-width: 768px) {
+  img {
+    max-width: 100%; /* Begræns billedets bredde til boksens bredde på mindre skærme */
+  }
+}
 img {
   max-width: 100%; /* Begræns billedets bredde til boksens bredde */
-  height: auto; /* Bevar billedets aspektratio */
-  margin-top: 15px;
+  height: 100%; /* Bevar billedets aspektratio */
+  margin-top: 30px;
 }
 
 .overlay {
@@ -83,7 +88,7 @@ footer {
   transform: translate(-50%, -50%);
   width: 100%;
   display: grid;
-  grid-template-columns: 5% auto 5% auto auto;
+  grid-template-columns: 5% auto 5% auto 5%;
   border-radius: 10px;
 }
 
