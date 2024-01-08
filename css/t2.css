@@ -3,10 +3,6 @@ body {
   font-family: "Fraunces", serif;
 }
 
-.container {
-  display: flex;
-}
-
 .box {
   flex: 1;
   height: 300px;
@@ -16,6 +12,8 @@ body {
 
 .left-box {
   overflow: hidden; /* For at sikre, at billedet ikke går ud over boksen */
+  box-shadow: -9px 22px #3f83bf;
+  border-radius: 2%;
 }
 
 img {
@@ -58,11 +56,48 @@ h1 {
   color: white;
   text-align: center;
   font-family: "Fraunces", serif;
-  font-size: 3em;
+  font-size: 250%;
 }
 
-p {
+.description {
   text-align: justify;
   font-family: "Poppins", sans-serif;
-  font-size: 1em;
+  font-size: 0.65em;
+}
+
+footer {
+  background-color: #3f83bf;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  height: 45px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.grid-container1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  display: grid;
+  grid-template-columns: 5% auto 5% auto auto;
+  border-radius: 10px;
+}
+
+.cta-button {
+  margin-top: 4%;
+  display: inline-block;
+  padding: 7px 24px;
+  font-weight: bold;
+  font-family: "Fraunces", serif;
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
