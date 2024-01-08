@@ -106,3 +106,9 @@ footer {
   border-radius: 5px;
   cursor: pointer;
 }
+
+p {
+  line-height: 1.5em;
+  text-align: justify;
+  color: black;
+}
