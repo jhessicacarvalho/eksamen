@@ -88,9 +88,14 @@ footer {
 }
 
 .cta-button {
-  margin-top: 4%;
+  position: absolute;
+  top: 82%; /* Afstand fra bunden af siden */
+  left: 75%; /* Centreret horisontalt */
+  transform: translateX(
+    -50%
+  ); /* Centreret horisontalt med translate transform */
   display: inline-block;
-  padding: 7px 24px;
+  padding: 7px 38px;
   font-weight: bold;
   font-family: "Fraunces", serif;
   text-align: center;
