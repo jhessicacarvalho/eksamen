@@ -5,7 +5,7 @@ body {
 
 .box {
   flex: 1;
-  height: 300px;
+  height: 339px;
   margin: 10px;
   position: relative;
 }
@@ -18,8 +18,7 @@ body {
 img {
   max-width: 100%; /* Begræns billedets bredde til boksens bredde */
   height: 100%; /* Bevar billedets aspektratio */
-  margin-top: 30px;
-  margin-top: 5%;
+  margin-top: 2%;
   border-radius: 5%;
   border-style: double;
   box-sizing: border-box;
@@ -34,8 +33,8 @@ img {
 .middle-box {
   position: absolute;
   top: 20px;
-  width: 97%;
-  height: 105%;
+  width: 95%;
+  height: 100%;
   background-color: #3f83bf;
   z-index: 1; /* Højere z-index for at være øverst */
   border-radius: 10px;
@@ -50,13 +49,10 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  width: 96%;
-  height: 103%;
 }
 
 .right-box p {
   line-height: 1.3em;
-  text-size: 10px;
   text-align: justify;
   color: black;
 }
@@ -92,13 +88,13 @@ footer {
   transform: translate(-50%, -50%);
   width: 100%;
   display: grid;
-  grid-template-columns: 5% auto 5% auto 5%;
+  grid-template-columns: auto auto 3% 60% auto;
   border-radius: 10px;
 }
 
 .cta-button {
   position: absolute;
-  top: 113%; /* Afstand fra bunden af siden */
+  top: 110%; /* Afstand fra bunden af siden */
   left: 69%; /* Centreret horisontalt */
   transform: translateX(
     -50%
@@ -116,28 +112,5 @@ footer {
   cursor: pointer;
 }
 .cta-button:hover {
-  background-color: #8abf8d;
-}
-
-.cta-knap {
-  position: absolute;
-  top: 110%; /* Afstand fra bunden af siden */
-  left: 22%; /* Centreret horisontalt */
-  transform: translateX(
-    -50%
-  ); /* Centreret horisontalt med translate transform */
-  display: inline-block;
-  padding: 7px 38px;
-  font-weight: bold;
-  font-family: "Fraunces", serif;
-  text-align: center;
-  text-decoration: none;
-  background-color: white;
-  color: black;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.cta-knap:hover {
   background-color: #8abf8d;
 }

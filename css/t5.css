@@ -10,12 +10,6 @@ body {
   position: relative;
 }
 
-.left-box {
-  overflow: hidden; /* For at sikre, at billedet ikke går ud over boksen */
-  box-shadow: -11px 12px 0px 11px #3f83bf;
-  border-radius: 2%;
-}
-
 @media screen and (max-width: 768px) {
   img {
     max-width: 100%; /* Begræns billedets bredde til boksens bredde på mindre skærme */
@@ -24,7 +18,12 @@ body {
 img {
   max-width: 100%; /* Begræns billedets bredde til boksens bredde */
   height: 100%; /* Bevar billedets aspektratio */
-  margin-top: 40%;
+  margin-top: 2%;
+  border-radius: 5%;
+  border-style: double;
+  box-sizing: border-box;
+  border-color: #3f83bf;
+  box-shadow: -10px 10px #3f83bf;
 }
 
 .overlay {
@@ -53,8 +52,9 @@ img {
 }
 
 .right-box p {
-  color: white;
-  text-align: center;
+  line-height: 1.5em;
+  text-align: justify;
+  color: black;
 }
 
 h1 {
@@ -110,4 +110,7 @@ footer {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+.cta-button:hover {
+  background-color: #8abf8d;
 }

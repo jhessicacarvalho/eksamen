@@ -28,7 +28,7 @@ img {
 .middle-box {
   position: absolute;
   top: 20px;
-  width: 95%;
+  width: 96%;
   height: 100%;
   background-color: #3f83bf;
   z-index: 1; /* Højere z-index for at være øverst */
@@ -44,11 +44,14 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  width: 97%;
+  height: 101%;
 }
 
 .right-box p {
-  color: white;
+  line-height: 1.4em;
   text-align: center;
+  color: black;
 }
 
 h1 {
@@ -82,14 +85,14 @@ footer {
   transform: translate(-50%, -50%);
   width: 100%;
   display: grid;
-  grid-template-columns: 5% 40% auto auto 5%;
+  grid-template-columns: 10% 40% 3% 40% 5%;
   border-radius: 10px;
 }
 
 .cta-button {
   position: absolute;
   top: 82%; /* Afstand fra bunden af siden */
-  left: 67%; /* Centreret horisontalt */
+  left: 72%; /* Centreret horisontalt */
   transform: translateX(
     -50%
   ); /* Centreret horisontalt med translate transform */
@@ -106,8 +109,6 @@ footer {
   cursor: pointer;
 }
 
-p {
-  line-height: 1.5em;
-  text-align: justify;
-  color: black;
+.cta-button:hover {
+  background-color: #8abf8d;
 }
