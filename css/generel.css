@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #8abf8d;
+  font-size: 1.5cqw;
 }
 
 .navbar {
@@ -38,7 +39,7 @@ body {
 /* Media query for screens with a width of 600px or less */
 @media screen and (max-width: 800px) {
   body {
-    font-size: xx-small;
+    font-size: 1.5cqw;
   }
 
   .semester {
