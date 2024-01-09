@@ -51,9 +51,11 @@ img {
 
 .right-box p {
   line-height: 1.5em;
+  font-size: 1.2cqw;
   text-align: justify;
   color: black;
   overflow: scroll;
+  font-family: "Poppins", sans-serif;
 }
 
 h1 {
@@ -61,12 +63,6 @@ h1 {
   text-align: center;
   font-family: "Fraunces", serif;
   font-size: 250%;
-}
-
-.description {
-  text-align: justify;
-  font-family: "Poppins", sans-serif;
-  font-size: 0.65em;
 }
 
 /*footer {

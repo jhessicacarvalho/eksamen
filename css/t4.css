@@ -52,9 +52,12 @@ img {
 }
 
 .right-box p {
-  line-height: 1.4em;
+  line-height: 1.6em;
+  font-size: 1.2cqw;
   text-align: justify;
   color: black;
+  font-family: "Poppins", sans-serif;
+  overflow: scroll;
 }
 
 h1 {
@@ -73,7 +76,7 @@ h1 {
 footer {
   background-color: #3f83bf;
   text-align: center;
-  padding: 10px;
+  padding: 0px;
   position: fixed;
   height: 45px;
   bottom: 0px;

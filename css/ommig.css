@@ -18,6 +18,9 @@ img {
   max-width: 100%; /* Begræns billedets bredde til boksens bredde */
   height: auto; /* Bevar billedets aspektratio */
   margin-top: 15px;
+  box-sizing: border-box;
+  border-color: #3f83bf;
+  box-shadow: 10px 20px #3f83bf;
 }
 
 .overlay {
@@ -46,9 +49,12 @@ img {
 }
 
 .right-box p {
-  line-height: 1.5em;
-  text-align: center;
+  line-height: 1.6em;
+  font-size: 1.2cqw;
+  text-align: justify;
   color: black;
+  font-family: "Poppins", sans-serif;
+  overflow: scroll;
 }
 
 h1 {
@@ -56,12 +62,6 @@ h1 {
   text-align: center;
   font-family: "Fraunces", serif;
   font-size: 250%;
-}
-
-.description {
-  text-align: justify;
-  font-family: "Poppins", sans-serif;
-  font-size: 0.65em;
 }
 
 .grid-container1 {
@@ -81,8 +81,14 @@ footer {
   text-align: center;
   padding: 10px;
   position: fixed;
-  height: 45px;
+  height: 20px;
   bottom: 0px;
   left: 0px;
   right: 0px;
+}
+
+.footerp {
+  line-height: 0.1em;
+  color: white;
+  font-family: "Poppins", sans-serif;
 }

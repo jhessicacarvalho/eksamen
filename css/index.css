@@ -100,8 +100,14 @@ footer {
   text-align: center;
   padding: 10px;
   position: fixed;
-  height: 45px;
+  height: 20px;
   bottom: 0px;
   left: 0px;
   right: 0px;
+}
+
+.footerp {
+  line-height: 0.1em;
+  color: white;
+  font-family: "Poppins", sans-serif;
 }

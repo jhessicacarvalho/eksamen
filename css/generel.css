@@ -93,17 +93,6 @@ body {
   }
 }
 
-footer {
-  background-color: #3f83bf;
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  height: 45px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-}
-
 .grid-container {
   position: absolute;
   top: 50%;
