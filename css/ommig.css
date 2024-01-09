@@ -75,20 +75,3 @@ h1 {
   grid-template-columns: 5% auto auto auto;
   border-radius: 10px;
 }
-
-footer {
-  background-color: #3f83bf;
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  height: 45px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-}
-
-.footerp {
-  line-height: 0.1em;
-  color: white;
-  font-family: "Poppins", sans-serif;
-}

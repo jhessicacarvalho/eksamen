@@ -119,7 +119,7 @@ footer {
 .cta-knap {
   position: absolute;
   top: 110%; /* Afstand fra bunden af siden */
-  left: 22%; /* Centreret horisontalt */
+  left: 48%; /* Centreret horisontalt */
   transform: translateX(
     -50%
   ); /* Centreret horisontalt med translate transform */
