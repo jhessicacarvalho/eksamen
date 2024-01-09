@@ -12,12 +12,12 @@ body {
 
 @media screen and (max-width: 768px) {
   img {
-    max-width: 100%; /* Begræns billedets bredde til boksens bredde på mindre skærme */
+    max-width: 100%;
   }
 }
 img {
-  max-width: 100%; /* Begræns billedets bredde til boksens bredde */
-  height: 100%; /* Bevar billedets aspektratio */
+  max-width: 100%;
+  height: 100%;
   margin-top: 5%;
   border-radius: 5%;
   border-style: double;
@@ -36,14 +36,14 @@ img {
   width: 95%;
   height: 100%;
   background-color: #3f83bf;
-  z-index: 1; /* Højere z-index for at være øverst */
+  z-index: 1;
   border-radius: 10px;
 }
 
 .right-box {
   background-color: #f285c1;
-  z-index: 2; /* Lavere z-index for at være under middle-box */
-  left: -20px; /* Juster denne værdi for at rykke .right-box til venstre */
+  z-index: 2;
+  left: -20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -96,11 +96,9 @@ footer {
 
 .cta-button {
   position: absolute;
-  top: 110%; /* Afstand fra bunden af siden */
-  left: 67%; /* Centreret horisontalt */
-  transform: translateX(
-    -50%
-  ); /* Centreret horisontalt med translate transform */
+  top: 110%;
+  left: 67%;
+  transform: translateX(-50%);
   display: inline-block;
   padding: 7px 38px;
   font-weight: bold;

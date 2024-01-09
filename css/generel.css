@@ -36,7 +36,6 @@ body {
   color: white;
 }
 
-/* Media query for screens with a width of 600px or less */
 @media screen and (max-width: 800px) {
   body {
     font-size: 1.5cqw;

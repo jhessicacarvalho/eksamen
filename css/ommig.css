@@ -11,12 +11,12 @@ body {
 }
 
 .left-box {
-  overflow: hidden; /* For at sikre, at billedet ikke går ud over boksen */
+  overflow: hidden;
 }
 
 img {
-  max-width: 100%; /* Begræns billedets bredde til boksens bredde */
-  height: auto; /* Bevar billedets aspektratio */
+  max-width: 100%;
+  height: auto;
   margin-top: 15px;
   box-sizing: border-box;
   border-color: #3f83bf;
@@ -33,14 +33,14 @@ img {
   width: 95%;
   height: 100%;
   background-color: #3f83bf;
-  z-index: 1; /* Højere z-index for at være øverst */
+  z-index: 1;
   border-radius: 10px;
 }
 
 .right-box {
   background-color: #f285c1;
-  z-index: 2; /* Lavere z-index for at være under middle-box */
-  left: -20px; /* Juster denne værdi for at rykke .right-box til venstre */
+  z-index: 2;
+  left: -20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
