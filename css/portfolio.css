@@ -41,9 +41,12 @@ a {
   color: black;
   text-align: center;
   font-family: "Fraunces", bold;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
+.a:hover {
+  background-color: #8abf8d;
+}
 footer {
   background-color: #3f83bf;
   text-align: center;
