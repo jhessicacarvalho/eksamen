@@ -89,8 +89,8 @@ h1 {
 
 .cta-button {
   position: absolute;
-  top: 82%; /* Afstand fra bunden af siden */
-  left: 72%; /* Centreret horisontalt */
+  top: 99%; /* Afstand fra bunden af siden */
+  left: 51%; /* Centreret horisontalt */
   transform: translateX(
     -50%
   ); /* Centreret horisontalt med translate transform */
