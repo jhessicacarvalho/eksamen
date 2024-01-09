@@ -89,7 +89,7 @@ footer {
   transform: translate(-50%, -50%);
   width: 100%;
   display: grid;
-  grid-template-columns: 5% 45% auto 45% 5%;
+  grid-template-columns: 5% 35% 20% 35% 5%;
   border-radius: 10px;
 }
 
