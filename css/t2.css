@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Fraunces", serif;
-  font-size: 1.5cqw;
+  font-size: 1.3cqw;
 }
 
 .box {
@@ -29,7 +29,7 @@ img {
 .middle-box {
   position: absolute;
   top: 20px;
-  width: 96%;
+  width: 110%;
   height: 100%;
   background-color: #3f83bf;
   z-index: 1; /* Højere z-index for at være øverst */
@@ -45,12 +45,12 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  width: 97%;
+  width: 108%;
   height: 101%;
 }
 
 .right-box p {
-  line-height: 1.4em;
+  line-height: 1.5em;
   text-align: justify;
   color: black;
   overflow: scroll;
@@ -69,16 +69,16 @@ h1 {
   font-size: 0.65em;
 }
 
-footer {
+/*footer {
   background-color: #3f83bf;
   text-align: center;
   padding: 10px;
   position: fixed;
-  height: 45px;
+  height: 40px;
   bottom: 0px;
   left: 0px;
   right: 0px;
-}
+}*/
 
 .grid-container1 {
   position: absolute;
@@ -87,7 +87,7 @@ footer {
   transform: translate(-50%, -50%);
   width: 100%;
   display: grid;
-  grid-template-columns: 10% 40% 3% 40% 5%;
+  grid-template-columns: 4% 43% auto 45% 10%;
   border-radius: 10px;
 }
 
